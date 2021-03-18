@@ -6,39 +6,48 @@
     <title>Zach Hetrick's Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="hover.css">
     <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="main-nav">
+    <nav class="main-nav">
         <ul class="nav">
             <li class="name">Zach Hetrick</li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="experience.html">Experience</a></li>
+            <li><a href="index.html" class="hvr-reveal">Home</a></li>
+            <li><a href="experience.html" class="hvr-reveal">Experience</a></li>
+            <li><a href="interests.html" class="hvr-reveal">Interests</a></li>
         </ul>
-    </div>
+    </nav>
 
     <header>
-        <img src="images/Profile.jpg" alt="Drawing of Zach Hetrick" class="profile-image">
-        <h1 class="tag name">Hello, I’m Zach.</h1>
+        <img src="images/Profile.jpg" alt="Drawing of Zach Hetrick" class="profile-image hvr-wobble-to-bottom-right">
+        <h1 class="tag greeting">Hello, I’m Zach.</h1>
         <p class="tag location">My home is Eagle River, Alaska.</p>
     </header>
 
+
     <main class="flex">
-        <div class="card">
+        <section class="card">
             <h2>Experience</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est iste voluptate natus beatae repellat fuga
-                unde nostrum accusantium! Doloribus impedit placeat cupiditate dolor aperiam exercitationem eligendi sit
-                tempora a earum!</p>
-        </div>
+            <p>&emsp;My experience with code lies primarily with C++ and Qt libraries. In 2012 I started a contracting
+                business and have been able to use my coding skills to create in-house software that allows the business
+                to be
+                incredibly efficient and managerially light, handling things such as contract bidding, PDF generation,
+                payroll calculation, timesheet tracking, employee database, CRM, and more.</p>
+
+            <p>&emsp;My experience may be primarily with desktop applications, but my interests are now leading me elsewhere!
+            </p>
+
+            <img src="images/new-adventure.jpg" alt="Inspiring picture beckoning you to start something new!"
+                class="img-adventure">
+        </section>
 
     </main>
     <footer>
         <ul>
-            <li><a href="#" class="social twitter">Twitter</a></li>
-            <li><a href="#" class="social linkedin">LinkedIn</a></li>
-            <li><a href="#" class="social github">Github</a></li>
+            <li><a href="https://github.com/Zetrick" class="social github" target="_blank">Github</a></li>
         </ul>
         <p class="copyright">Copyright 2021, Zach Hetrick</p>
     </footer>
